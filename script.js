@@ -15,7 +15,7 @@ const anyKey = () => {
   title.textContent = "Press A Key to Start";
   setTimeout(() => {
     randomColor();
-    title.textContent = `level + ${level}`;
+    title.textContent = `level ${level}`;
   }, 400);
 };
 
